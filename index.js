@@ -23,7 +23,7 @@ const ytdlpPath = path.join(__dirname, 'yt-dlp.exe');
 const commands = [
     { name: 'play', description: 'Включить трек с YouTube', options: [{ name: 'url', type: 3, description: 'Ссылка YouTube', required: true }] },
     { name: 'skip', description: 'Пропустить трек' },
-    { name: 'stop', description: 'Остановить и отключиться' },
+    { name: 'stop', description: 'Остановить и отключиться!' },
     { name: 'queue', description: 'Очередь треков' },
     { name: 'nowplaying', description: 'Текущий трек' }
 ];
